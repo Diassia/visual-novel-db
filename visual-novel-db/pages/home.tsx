@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ReactiveImage from '../components/ReactiveImage'
+import Recommendation from '../components/Recommendation'
 
 const Home = () => {
     const [data, setData] = useState({visualNovels: []});
@@ -17,8 +18,6 @@ const Home = () => {
         })();
     }, [])
 
-    console.log(data)
-
     return (
         <>
             <p>Hello World</p>
@@ -29,6 +28,10 @@ const Home = () => {
                 : <></>
                 }
             </div>
+            { data.visualNovels.length > 0 ? 
+                <Recommendation vnData={data.visualNovels[Math.floor(Math.random() * data.visualNovels.length)]}/>
+                : <></>
+            }
         </>
     )
 }
