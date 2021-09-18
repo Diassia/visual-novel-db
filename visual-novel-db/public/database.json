@@ -1,0 +1,36 @@
+{
+    "visualNovels":
+    [
+{
+    "title": "Clannad",
+    "rating": 10,
+    "genre": ["fantasy", "supernatural", "sad"],
+    "description": "The story follows the life of Tomoya Okazaki, from adolescence to adulthood. As an average high school student, he meets many people in his last year at school, including five girls whose individual problems he helps resolve, and his life is further detailed after graduating from high school.",
+    "urlImage": "https://m.media-amazon.com/images/M/MV5BN2VmM2NmMGUtOGQ2OC00Y2ZjLTljNTctYjhmMDJjZjM1NTY3XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg"
+},
+
+{
+    "title": "The House in Fata Morgana",
+    "rating": 10,
+    "genre": ["fantasy", "supernatural", "sad"],
+    "description": "The House in Fata Morgana is a visual novel set in a mansion, where a spirit appears with amnesia. It meets a Maid in the mansion, and the two view the mansion's past in different time periods – 1603, 1707, 1869 and 1099 – to learn what has happened to its residents and to try to get the spirit to regain its lost memories.",
+    "urlImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/The_House_in_Fata_Morgana_cover.png/220px-The_House_in_Fata_Morgana_cover.png"
+},
+
+{
+    "title": "Higurashi no Naku Koro ni",
+    "rating": 8,
+    "genre": ["fantasy", "supernatural", "horror"],
+    "description": "Higurashi: When They Cry takes place in the fictional village of Hinamizawa (雛見沢) in June 1983. Shortly before then, the main character, Keiichi Maebara, moves to the village and befriends classmates Mion Sonozaki, her twin sister Shion, Rena Ryūgū, Rika Furude and Satoko Hōjō. Keiichi soon learns of the village's annual Watanagashi Festival, a celebration to commemorate and give thanks to the local deity Oyashiro. Hinamizawa initially seems calm and peaceful, but shortly before the festival, Keiichi learns that for four consecutive years, people in the village have been killed or have disappeared on the evening of the festival.",
+    "urlImage": "https://www.mobygames.com/images/covers/l/496592-higurashi-no-naku-koro-ni-ho-nintendo-switch-front-cover.jpg"
+},
+
+{
+    "title": "Umineko no Naku Koro ni",
+    "rating": 10,
+    "genre": ["fantasy", "mystery", "supernatural", "mystery", "horror"],
+    "description": "Small bombs",
+    "urlImage": "https://upload.wikimedia.org/wikipedia/en/9/9d/Umineko_no_Naku_Koro_ni_cover.jpg"
+}
+]
+}
