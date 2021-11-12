@@ -34,6 +34,7 @@
 - Persona 4
 - Persona 5
 - AI: The Sominium Files
+- Ever17
 
 ## Also to add:
 

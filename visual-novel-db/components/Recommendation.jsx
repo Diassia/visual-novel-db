@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
 const Recommendation = (props) => {
     // const name = "Danganronpa";
@@ -13,19 +14,21 @@ const Recommendation = (props) => {
     
     return (
         <div className="card">
-            <Image 
-                src={props.vnData.urlImage}  
-                alt="cat"     
-                width={400}
-                height={400}
-                //layout options: responsive, fixed, fill, instrinsic
-                layout="intrinsic"/>
-            <div className="card-body">
-                <h5 className="card-title">Random Recommendation</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{props.vnData.title}</h6>
-                <h6 className="card-subtitle mb-2 text-muted">{joinedGenre}</h6>
-                <p className="card-text">{props.vnData.description}</p>
-                <p className="card-text">Rating: {props.vnData.rating}</p>
+            <h2 className={styles.cardtitle}>Random Recommendation</h2>
+            <div>
+                <Image 
+                    src={props.vnData.urlImage}  
+                    alt="cat"     
+                    width={300}
+                    height={300}
+                    //layout options: responsive, fixed, fill, instrinsic
+                    layout="intrinsic"/>
+            </div>
+            <div>
+                <h2 className={styles.cardsubtitle}>{props.vnData.title}</h2>
+                <h6>{joinedGenre}</h6>
+                <h3 className={styles.carddescription}>{props.vnData.description}</h3>
+                <h5 className={styles.cardrating}>Rating: {props.vnData.rating}</h5>
             </div>
         </div>
     )

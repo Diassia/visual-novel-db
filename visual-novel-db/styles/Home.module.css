@@ -119,3 +119,21 @@
     flex-direction: column;
   }
 }
+
+.cardtitle {
+  color: blueviolet;
+  text-align: center;
+}
+
+.cardsubtitle {
+  color: blueviolet;
+}
+
+.cardrating {
+  color: blueviolet;
+}
+
+.carddescription {
+  font-size: 14px;
+  font-weight: 250;
+}
