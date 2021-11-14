@@ -14,15 +14,16 @@ const Recommendation = (props) => {
     
     return (
         <div className="card">
-            <h2 className={styles.cardtitle}>Random Recommendation</h2>
-            <div>
+            {/* <h2 className={styles.cardtitle}>Random Recommendation</h2> */}
+            <div className={styles.imageContainer}>
                 <Image 
                     src={props.vnData.urlImage}  
                     alt="cat"     
-                    width={300}
-                    height={300}
+                    width="100%"
+                    height="100%"
                     //layout options: responsive, fixed, fill, instrinsic
-                    layout="intrinsic"/>
+                    layout="fill"
+                    className={styles.image}/>
             </div>
             <div>
                 <h2 className={styles.cardsubtitle}>{props.vnData.title}</h2>
