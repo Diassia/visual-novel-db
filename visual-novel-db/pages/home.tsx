@@ -5,6 +5,15 @@ import styles from '../styles/Home.module.css'
 
 const Home = () => {
     const [data, setData] = useState({visualNovels: []});
+    
+
+    const getLastTenPlayed = () => {
+        const lastTen = []
+        for (let i = data.visualNovels.length - 1; i >= (data.visualNovels.length - 10); i--) {
+            lastTen.push(data.visualNovels[i])
+        }
+        return lastTen
+    }
 
     const handleDatabase = async () => {
         const res = await fetch("./database.json");
@@ -39,6 +48,8 @@ const Home = () => {
                         : <></>
                     }
                 </div>
+                <h5>Most recent visual novels:</h5>
+                    
             </main>
         </>
     )

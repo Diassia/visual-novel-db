@@ -13,7 +13,7 @@ const Recommendation = (props) => {
     }).join(", ");
     
     return (
-        <div className="card">
+        <>
             {/* <h2 className={styles.cardtitle}>Random Recommendation</h2> */}
             <div className={styles.imageContainer}>
                 <Image 
@@ -31,7 +31,7 @@ const Recommendation = (props) => {
                 <h3 className={styles.carddescription}>{props.vnData.description}</h3>
                 <h5 className={styles.cardrating}>Rating: {props.vnData.rating}</h5>
             </div>
-        </div>
+        </>
     )
 }
 

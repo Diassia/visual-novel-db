@@ -52,6 +52,58 @@
             "genre": ["fantasy", "mystery", "horror"],
             "description": "A sequel to Higurashi and Umineko, part of the When They Cry franchise. 100 years after the world was nearly destroyed during World War III. Cutting-edge technology saved the planet from a nuclear winter, allowing its population to reach the tens of billions once more. This eventually gave rise to a new ultimate military technology, the Gauntlet. People who wore these on their left arms were called Gauntlet Knights, and without carrying any additional equipment, they could use this unrivaled power to fly like fighter planes, fight like aircraft carriers and battleships, and repel all sorts of attacks like tanks.",
             "urlImage": "https://static.wikia.nocookie.net/umineko/images/9/9c/CicoReveal.png/revision/latest?cb=20210426193846"
+        },
+        {
+            "title": "Clannad",
+            "rating": 10,
+            "genre": ["fantasy", "supernatural", "sad"],
+            "description": "The story follows the life of Tomoya Okazaki, from adolescence to adulthood. As an average high school student, he meets many people in his last year at school, including five girls whose individual problems he helps resolve, and his life is further detailed after graduating from high school.",
+            "urlImage": "https://m.media-amazon.com/images/M/MV5BN2VmM2NmMGUtOGQ2OC00Y2ZjLTljNTctYjhmMDJjZjM1NTY3XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg"
+        },
+
+        {
+            "title": "The House in Fata Morgana",
+            "rating": 10,
+            "genre": ["fantasy", "supernatural", "sad"],
+            "description": "The House in Fata Morgana is a visual novel set in a mansion, where a spirit appears with amnesia. It meets a Maid in the mansion, and the two view the mansion's past in different time periods – 1603, 1707, 1869 and 1099 – to learn what has happened to its residents and to try to get the spirit to regain its lost memories.",
+            "urlImage": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_TheHouseInFataMorgana_image1600w.jpg"
+        },
+
+        {
+            "title": "Higurashi no Naku Koro ni",
+            "rating": 8,
+            "genre": ["fantasy", "supernatural", "horror"],
+            "description": "Higurashi: When They Cry takes place in the fictional village of Hinamizawa (雛見沢) in June 1983. Shortly before then, the main character, Keiichi Maebara, moves to the village and befriends classmates Mion Sonozaki, her twin sister Shion, Rena Ryūgū, Rika Furude and Satoko Hōjō. Keiichi soon learns of the village's annual Watanagashi Festival, a celebration to commemorate and give thanks to the local deity Oyashiro. Hinamizawa initially seems calm and peaceful, but shortly before the festival, Keiichi learns that for four consecutive years, people in the village have been killed or have disappeared on the evening of the festival.",
+            "urlImage": "https://www.mobygames.com/images/covers/l/496592-higurashi-no-naku-koro-ni-ho-nintendo-switch-front-cover.jpg"
+        },
+
+        {
+            "title": "Umineko no Naku Koro ni",
+            "rating": 10,
+            "genre": ["fantasy", "mystery", "supernatural", "horror"],
+            "description": "The story focuses on a group of eighteen people on a secluded island for a period of two days, and the mysterious murders that befall them. Readers are challenged to discern whether the murders were committed by a human or of some other supernatural source, as well as the method and motive behind them. Also small bombs.",
+            "urlImage": "https://e.snmc.io/lk/f/x/ab1bf15b70957d9972f911095a0c16b3/9129148"
+        },
+        {
+            "title": "Doki Doki Literature Club",
+            "rating": 9,
+            "genre": ["mystery", "romance", "horror"],
+            "description": "The story is told from the perspective of a high school student who reluctantly joins the school's literature club on the insistence of his best friend, and is given the option to woo three of its four female members.",
+            "urlImage": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DokiDokiLiteratureClubPlus_image1600w.jpg"
+        },
+        {
+            "title": "Fatal Twelve",
+            "rating": 8,
+            "genre": ["fantasy", "mystery", "supernatural", "horror", "death game"],
+            "description": "Shishimai Rinka was a high schooler who ran a small café named Lion House in place of her grandmother. She lived her life much like any other person her age, but one day, she was caught up in an explosion while returning home on the train alongside her friend, Hitsuji Naomi. In an attempt to save her friend's life, she shields her on instinct the moment the explosion goes off, losing her life in the process. However, before she knew it, she was back at Lion House, happily chatting with her friends as if nothing had happened in the first place.",
+            "urlImage": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_FatalTwelve_image1600w.jpg"
+        },
+        {
+            "title": "Ciconia no Naku Koro Ni: Phase 1",
+            "rating": 9,
+            "genre": ["fantasy", "mystery", "horror"],
+            "description": "A sequel to Higurashi and Umineko, part of the When They Cry franchise. 100 years after the world was nearly destroyed during World War III. Cutting-edge technology saved the planet from a nuclear winter, allowing its population to reach the tens of billions once more. This eventually gave rise to a new ultimate military technology, the Gauntlet. People who wore these on their left arms were called Gauntlet Knights, and without carrying any additional equipment, they could use this unrivaled power to fly like fighter planes, fight like aircraft carriers and battleships, and repel all sorts of attacks like tanks.",
+            "urlImage": "https://static.wikia.nocookie.net/umineko/images/9/9c/CicoReveal.png/revision/latest?cb=20210426193846"
         }
     ]
 }
