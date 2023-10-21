@@ -14,7 +14,7 @@ const Recommendation = (props) => {
     
     return (
         <>
-            {/* <h2 className={styles.cardtitle}>Random Recommendation</h2> */}
+            {/* <h2 className={styles.cardTitle}>Random Recommendation</h2> */}
             <div className={styles.imageContainer}>
                 <Image 
                     src={props.vnData.urlImage}  
@@ -26,10 +26,10 @@ const Recommendation = (props) => {
                     className={styles.image}/>
             </div>
             <div>
-                <h2 className={styles.cardsubtitle}>{props.vnData.title}</h2>
+                <h2 className={styles.cardSubtitle}>{props.vnData.title}</h2>
                 <h6>{joinedGenre}</h6>
-                <h3 className={styles.carddescription}>{props.vnData.description}</h3>
-                <h5 className={styles.cardrating}>Rating: {props.vnData.rating}</h5>
+                <h3 className={styles.cardDescription}>{props.vnData.description}</h3>
+                <h5 className={styles.cardRating}>Rating: {props.vnData.rating}</h5>
             </div>
         </>
     )

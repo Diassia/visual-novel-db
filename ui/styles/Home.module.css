@@ -121,20 +121,20 @@
   }
 }
 
-.cardtitle {
+.cardTitle {
   color: blueviolet;
   text-align: center;
 }
 
-.cardsubtitle {
+.cardSubtitle {
   color: blueviolet;
 }
 
-.cardrating {
+.cardRating {
   color: blueviolet;
 }
 
-.carddescription {
+.cardDescription {
   font-size: 14px;
   font-weight: 250;
 }
