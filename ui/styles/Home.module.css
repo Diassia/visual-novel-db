@@ -100,12 +100,12 @@
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 1.5;
 }
 
@@ -121,6 +121,15 @@
   }
 }
 
+.card {
+  width: 50%;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: row;
+}
+
 .cardTitle {
   color: blueviolet;
   text-align: center;
@@ -128,6 +137,7 @@
 
 .cardSubtitle {
   color: blueviolet;
+  font-size: 18px;
 }
 
 .cardRating {
@@ -139,8 +149,15 @@
   font-weight: 250;
 }
 
-.imageContainer {
+.cardImage {
   width: 100%;
+  margin-left: 15px;
+}
+
+.cardInfo {
+  display: flex;
+  /* width: 50%; */
+  flex-direction: column;
 }
 
 .imageContainer   > div {

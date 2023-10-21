@@ -42,7 +42,7 @@ const Home = () => {
                     : <></>
                     }
                 </div> */}
-                <div className={styles.card}>
+                <div>
                     { data.visualNovels.length > 0 ? 
                         <Recommendation vnData={data.visualNovels[Math.floor(Math.random() * data.visualNovels.length)]}/>
                         : <></>
