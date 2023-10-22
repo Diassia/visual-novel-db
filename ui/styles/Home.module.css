@@ -9,12 +9,12 @@
 }
 
 .main {
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .footer {
@@ -33,12 +33,18 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title {
+  color: #CA3CFF;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
-.title a:hover,
+.homeNavigation {
+
+}
+
+/* .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
@@ -48,12 +54,12 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
+} */
 
-.title,
+/* .title,
 .description {
   text-align: center;
-}
+} */
 
 .description {
   line-height: 1.5;
@@ -94,8 +100,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  /* color: #B4A0E5; */
+  border-color: #C9E4E7;
 }
 
 .card h2 {
@@ -158,6 +164,13 @@
   display: flex;
   /* width: 50%; */
   flex-direction: column;
+}
+
+.cardLink {
+  font-size: 12px;
+  justify-content: right;
+  color: #B4A0E5;
+  font-weight: 500;
 }
 
 .imageContainer   > div {
