@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Table } from "../components/Table"
 import Link from "next/link";
+import NavBar from "../components/NavBar/NavBar";
 
 const Database = () => {
     const [data, setData] = useState({visualNovels: []});
@@ -20,7 +21,7 @@ const Database = () => {
 
     return (
         <>
-            <Link href="/home">Back to home</Link>
+            <NavBar />
             <Table data={data.visualNovels} />
         </>
     )

@@ -183,3 +183,25 @@
   position: relative !important;
   height: unset !important;
 }
+
+.navBar {
+  display: flex;
+  /* flex-grow: 4; */
+}
+
+.navLink {
+  text-decoration: none;
+  flex-direction: row;
+  background-color: #C9E4E7;
+  font-size: medium;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  /* color: #B4A0E5; */
+  border-color: #1E1014;
+}
