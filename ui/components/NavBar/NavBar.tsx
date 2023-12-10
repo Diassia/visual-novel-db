@@ -41,13 +41,21 @@ const NavBar = () => {
 
   return (
     <div className={styles.navBar}>
-      {links.map((link, id)=> {
-        return (
+      <Link
+        className={styles.logo}
+        href="/"
+      >
+        Visual Novel Database
+      </Link>
+      <div className={styles.linkButtons}>
+        {links.map((link, id)=> {
+          return (
             <Link href={link.href} className={styles.navLink}>
                 {link.icon}  {link.name}
             </Link>
-        )
-      })}
+          )
+        })}
+      </div>
     </div>
   )
 }

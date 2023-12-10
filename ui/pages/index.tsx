@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import RecommendationCard from '../components/RecommendationCard'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 import Head from 'next/head'
 import NavBar from '../components/NavBar/NavBar'
 
@@ -44,11 +43,9 @@ const Home = () => {
             </Head>
             <main className={styles.main}>
                 <NavBar />
-                <div className={styles.homeNavigation}>
-                    <h4 className={styles.title}>
-                        Visual Novel Database
-                    </h4>
-                </div>
+                {/* <h3 className={styles.title}>
+                    Visual Novel Database
+                </h3> */}
                 <div>
                     { data.visualNovels.length > 0 ? 
                         <RecommendationCard vnData={data.visualNovels[Math.floor(Math.random() * data.visualNovels.length)]}/>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Table } from "../components/Table"
-import Link from "next/link";
 import NavBar from "../components/NavBar/NavBar";
+import styles from '../styles/Home.module.css'
 
 const Database = () => {
     const [data, setData] = useState({visualNovels: []});
@@ -22,6 +22,9 @@ const Database = () => {
     return (
         <>
             <NavBar />
+            <h3 className={styles.title}>
+                Database
+            </h3>
             <Table data={data.visualNovels} />
         </>
     )
