@@ -210,8 +210,15 @@
   text-align: center;
 }
 
-.navBar:hover,
-.navBar:focus,
-.navBar:active {
-  border-color: #1E1014;
+.navLink:hover,
+.navLink:focus,
+.navLink:active,
+.logo:hover,
+.logo:focus,
+.logo:active {
+  color: #CA3CFF;
+}
+
+.recommendationCards {
+  display: flex;
 }
