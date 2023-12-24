@@ -8,7 +8,6 @@ const RecommendationCard = (props) => {
     return (
         <>
             <div className={styles.card}>
-                <h3 className={styles.cardTitle}>Random Recommendation</h3>
                 <div className={styles.cardContent}>
                     <div className={styles.cardInfo}>
                         <h2 className={styles.cardSubtitle}>{props.vnData.title}</h2>
@@ -25,7 +24,6 @@ const RecommendationCard = (props) => {
                     </div>
                 </div>
                 <h3 className={styles.cardDescription}>{props.vnData.description}</h3>
-                <Link href="" className={styles.cardLink}>Give me another recommendation!</Link>
             </div>
         </>
     )

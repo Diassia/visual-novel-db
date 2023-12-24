@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "next.config.js"
-  ],
+, "components/RecommendationCard.jsx", "components/RecommendationCard.jsx"  ],
   "exclude": [
     "node_modules"
   ]

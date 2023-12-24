@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import NavBar from '../components/NavBar/NavBar'
 import Icon from '../components/Icon'
+import Image from 'next/image'
 
 // TODO:
 // 1. Most recent visual novels
@@ -62,6 +63,7 @@ const Home = () => {
             </Head>
             <main className={styles.main}>
                 <NavBar />
+                <h3 className={styles.cardTitle}>Random Recommendations</h3>
                 <div className={styles.recommendationCards}>
                     { data.visualNovels.length > 0 ? (
                         getRandomRecommendations(data.visualNovels)
@@ -75,6 +77,23 @@ const Home = () => {
                         vn && <Icon vnData={vn} />
                     )
                 }
+                {/* <image 
+                    // src={props.vnData.icon ? props.vnData.icon : props.vnData.urlImage}  
+                    // alt="cat"     
+                    width={400}
+                    height={400}
+                    //layout options: responsive, fixed, fill, instrinsic
+                    href="../public/icons/clannad-icon.png"
+                    // layout="intrinsic"
+                /> */}
+                <Image 
+                    src="/clannad-icon.png"
+                    alt="cat"     
+                    // layout="fill"
+                    // className={styles.image}
+                    width={50}
+                    height={50}
+                />
             </main>
         </>
     )
