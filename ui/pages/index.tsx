@@ -48,15 +48,17 @@ const Home = () => {
                 <title>Visual Novel Database</title>
                 <meta name="description" content="homepage" />
             </Head>
-            <main className={styles.main}>
+            <main>
                 <NavBar />
-                <h3 className={styles.cardTitle}>Random Recommendations</h3>
-                <div className={styles.recommendationCards}>
-                    { data.visualNovels.length > 0 ? (
-                        getRandomRecommendations(data.visualNovels)
-                    )
-                        : <></>
-                    }
+                <div className={styles.recommendations}>
+                    <h3 className={styles.cardTitle}>Random Recommendations</h3>
+                    <div className={styles.recommendationCards}>
+                        { data.visualNovels.length > 0 ? (
+                            getRandomRecommendations(data.visualNovels)
+                        )
+                            : <></>
+                        }
+                    </div>
                 </div>
                 <RecentlyPlayed vnData={data.visualNovels as VisualNovels} />
             </main>

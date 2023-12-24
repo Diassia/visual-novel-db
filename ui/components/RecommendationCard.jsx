@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { joinedGenre } from './utils'
 
 const RecommendationCard = (props) => {
+    // const [showMore, setShowMore] = useState(false);
     
     return (
         <>
@@ -23,7 +24,9 @@ const RecommendationCard = (props) => {
                         />
                     </div>
                 </div>
-                <h3 className={styles.cardDescription}>{props.vnData.description}</h3>
+                <div className={styles.overflow}>
+                    <h3 className={styles.cardDescription}>{props.vnData.description}</h3>
+                </div>
             </div>
         </>
     )

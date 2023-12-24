@@ -1,4 +1,5 @@
 import Icon from '../components/Icon'
+import styles from '../styles/Home.module.css'
 
 interface Props {
     vnData: VisualNovels
@@ -8,14 +9,16 @@ const RecentlyPlayed: React.FC<Props> = ({vnData}) => {
     const visualNovels: VisualNovels = vnData;
     
     return (
-        <>
-            <h3>Most recent visual novels played:</h3>
-            {
-                getLastTenPlayed(visualNovels).map((vn) =>
-                    vn && <Icon vnData={vn} />
-                )
-            }
-        </>
+        <div className={styles.recentlyPlayedCard}>
+            <h3 className={styles.cardTitle}>Most recent visual novels</h3>
+            <div className={styles.recentlyPlayedCardContent}>
+                {
+                    getLastTenPlayed(visualNovels).map((vn) =>
+                        vn && <Icon vnData={vn} />
+                    )
+                }
+            </div>
+        </div>
     )
 }
  
