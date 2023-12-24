@@ -50,6 +50,7 @@ const Home = () => {
             </Head>
             <main>
                 <NavBar />
+                <RecentlyPlayed vnData={data.visualNovels as VisualNovels} />
                 <div className={styles.recommendations}>
                     <h3 className={styles.cardTitle}>Random Recommendations</h3>
                     <div className={styles.recommendationCards}>
@@ -60,7 +61,6 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                <RecentlyPlayed vnData={data.visualNovels as VisualNovels} />
             </main>
         </>
     )

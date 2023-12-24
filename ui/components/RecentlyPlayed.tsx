@@ -26,7 +26,7 @@ export default RecentlyPlayed;
 
 const getLastTenPlayed = (vnData) => {
     const lastTen = []
-    for (let i = vnData.length - 1; i >= (vnData.length - 10); i--) {
+    for (let i = vnData.length; i > (vnData.length - 10); i--) {
         if (i) {
             lastTen.push(vnData[i])
         }
