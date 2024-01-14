@@ -35,6 +35,7 @@
 - Persona 5
 - AI: The Sominium Files
 - Ever17
+- The Psychedelica of the Black Butterfly
 
 ## Also to add:
 

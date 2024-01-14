@@ -51,6 +51,38 @@
             "description": "Shishimai Rinka was a high schooler who ran a small café named Lion House in place of her grandmother. She lived her life much like any other person her age, but one day, she was caught up in an explosion while returning home on the train alongside her friend, Hitsuji Naomi. In an attempt to save her friend's life, she shields her on instinct the moment the explosion goes off, losing her life in the process. However, before she knew it, she was back at Lion House, happily chatting with her friends as if nothing had happened in the first place.",
             "urlImage": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_FatalTwelve_image1600w.jpg",
             "icon": "/fatal-twelve-icon.jpeg"
+        },
+        {
+            "title": "Steins;Gate",
+            "rating": 10,
+            "genre": ["fantasy", "mystery", "supernatural", "horror", "sci-fi"],
+            "description": "STEINS;GATE follows a rag-tag band of tech-savvy young students who discover the means of changing the past via mail, using a modified microwave. Their experiments into how far they can go with their discovery begin to spiral out of control as they become entangled in a conspiracy surrounding SERN, the organisation behind the Large Hadron Collider, and John Titor who claims to be from a dystopian future.",
+            "urlImage": "/steins-gate-image.png",
+            "icon": "/steins-gate-icon.jpg"
+        },
+        {
+            "title": "Danganronpa: Trigger Happy Havoc",
+            "rating": 9,
+            "genre": ["mystery", "horror", "death game"],
+            "description": "Hope's Peak Academy is home to Japan's best and brightest high school students—the beacons of hope for the future. But that hope suddenly dies when Makoto Naegi and his classmates find themselves imprisoned in the school, cut off from the outside world and subject to the whims of a strange, murderous little bear named Monokuma. He pits the students against each other, promising freedom to anyone who can murder a fellow classmate and get away with it.",
+            "urlImage": "/danganronpa-image.jpg",
+            "icon": "/danganronpa-icon.jpeg"
+        },
+        {
+            "title": "Raging Loop",
+            "rating": 10,
+            "genre": ["fantasy", "mystery", "supernatural", "horror", "death game"],
+            "description": "Immerse yourself in a thrilling psychological horror story taking place in the secluded Japanese village of Yasumizu. A heavy mist surrounds the place, preventing everyone from ever leaving. Ancient gods have come back to hunt the villagers down one by one. The feast has begun, can you escape the village alive?",
+            "urlImage": "/raging-loop-image.jpg",
+            "icon": "/raging-loop-icon.jpg"
+        },
+        {
+            "title": "Root Double",
+            "rating": 10,
+            "genre": ["mystery", "supernatural", "horror", "sci-fi"],
+            "description": "Rescue squad captain Watase Kasasagi wakes up without his memories in the middle of his most critical mission yet-- a nuclear meltdown at a research facility. In an unfamiliar place and without his years of training, he must rescue the survivors and escape...",
+            "urlImage": "/root-double-image.jpeg",
+            "icon": "/root-double-icon.jpeg"
         }
     ]
 }
